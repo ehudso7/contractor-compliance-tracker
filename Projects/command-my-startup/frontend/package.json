@@ -7,10 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "postinstall": "husky install",
     "test": "jest --passWithNoTests",
     "test:coverage": "jest --coverage",
     "cypress:run": "cypress run"
   },
+  "lint-staged": {
+  "*.{js,jsx,ts,tsx}": [
+    "eslint --fix",
+    "prettier --write"
+  ]
+}
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.1.1",
