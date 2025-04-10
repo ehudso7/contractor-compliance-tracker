@@ -1,0 +1,5 @@
+render_api_key   = rnd_fawavIv89zCBnjkGLlRuh7aoYU0K
+vercel_api_token = 7855wGn3goaVXbRgAbyfJot2
+supabase_url     = https://aylqsrrurzkvpfmonxdx.supabase.co
+supabase_key     = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5bHFzcnJ1cnprdnBmbW9ueGR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMyNTQ2MTMsImV4cCI6MjA1ODgzMDYxM30.pFFwM0WA77AFVCHjI_gz29RG8HF_eITLBi440aFhNsg
+jwt_secret       = AYK9ma1ouOmQ0zcZGlw0f6324ssfMDwcugmflailu9BzP9BTFpo1fJUXW8XVAadoiT5RFx+QJ2X0x9Zpu3FKlA==
