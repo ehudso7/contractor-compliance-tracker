@@ -1,0 +1,17 @@
+# .github/workflows/deploy-frontend.yml
+name: Deploy Frontend to Vercel
+
+on:
+  push:
+    branches:
+      - production
+    paths:
+      - "frontend/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy Hook
+        run: |
+          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
